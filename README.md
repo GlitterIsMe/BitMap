@@ -1,2 +1,2 @@
 # BitMap
-ASimple Bitmap with C++（in Debug）
+A Simple Bitmap with C++（in Debug）
