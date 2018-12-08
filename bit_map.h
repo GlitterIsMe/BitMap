@@ -27,5 +27,5 @@ public:
 private:
     size_t len_;
     size_t bytes_;
-    char* bitmap_;
+    unsigned char* bitmap_;
 };

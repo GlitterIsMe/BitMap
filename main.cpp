@@ -6,5 +6,12 @@ int main() {
         bitmap.SetBit(i, i % 2);
     }
     bitmap.Print();
+
+    for (int i = 0; i < 16; ++i) {
+        //printf("%d ", bitmap.GetBit());
+        bitmap.GetAndSet();
+        bitmap.Print();
+    }
+    printf("\n");
     return 0;
 }
